@@ -216,13 +216,13 @@
     
     <div class="products">
             <div align="center" class="text-content">
-              <h3>Shop</h3>
+              <h3 onclick="goToStar()">Shop</h3>
             </div>
     </div>
     <div style="height:10px; background-color: black;"></div>
 
         <div class="iframe">
-                <iframe id="iframeID" name="shop" src="https://xander-xavier-chainmail.square.site" width="100%" height="2000" style="border:none; margin-top:-125px"></iframe>
+                <iframe id="iframeID" name="shop" src="https://xander-xavier-chainmail.square.site" width="100%" height="2000" style="border:none"></iframe>
         </div>
 
     
@@ -245,13 +245,11 @@
       var iframe = document.getElementById("iframeID");
       function goToShopItem(){
         iframe.scrollIntoView({behavior: 'smooth'});
-        iframe.style.marginTop = "-125px";
         document.getElementsByClassName("iframe")[0].style.overflow = "hidden";
       }
       function goToDragonfly(){
         iframe.src = "https://xander-xavier-chainmail.square.site/product/butterfly/2";
         goToShopItem();
-        iframe.style.marginTop = "-125px";
         
       }
       function goToButterfly(){
@@ -276,6 +274,10 @@
       }
       function goToCross(){
         iframe.src = "https://xander-xavier-chainmail.square.site/product/celtic-cross-necklace/MH5V3KWXHDTUANS2N2ATNWTQ";
+        goToShopItem();
+      }
+      function goToCross(){
+        iframe.src = "https://xander-xavier-chainmail.square.site";
         goToShopItem();
       }
       function goToCart(){

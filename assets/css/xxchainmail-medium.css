@@ -1,7 +1,21 @@
+#borderline_top{
+	margin-top: 20px;
+	height:10px;
+	background-color: black;
+}
+#borderline_btm{
+	margin-top: -21px;
+	height:10px;
+	background-color: black;
+	margin-bottom:10px
+}
+#iframeID{
+	margin-top: -125px;
+}
 .iframe{
 	overflow:hidden;
 	border:10px solid #048200;
-	height:1300px;
+	height:1050px;
 }
 .section-heading .text-content h3 {
 	color: #048200;
