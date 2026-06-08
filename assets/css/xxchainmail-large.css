@@ -3,6 +3,11 @@
 	height:10px;
 	background-color: black;
 }
+#borderline_calendar{
+	height:10px;
+	background-color: black;
+	margin-top: -22px;
+}
 #borderline_btm{
 	margin-top: -21px;
 	height:10px;
@@ -35,6 +40,7 @@ img#logo
 {
 	height: auto;
 	width: 215px;
+	margin-top: -12px;
 }
 
 h2#p1
