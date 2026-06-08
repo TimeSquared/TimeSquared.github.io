@@ -63,6 +63,28 @@ li#li1
 	font-size: 30;
 }
 
+.cta-disclaimer {
+        margin-top: 20px;
+        padding: 20px 22px;
+        background: #f9f9f9;
+        border: 1px solid rgba(4, 130, 0, 0.16);
+        border-radius: 10px;
+        color: #262626;
+        font-size: 0.95rem;
+        line-height: 1.7;
+      }
+      .cta-disclaimer ul {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+      .cta-disclaimer li {
+        margin-bottom: 0.9rem;
+      }
+      .cta-disclaimer strong {
+        color: #048200;
+        font-weight: 700;
+      }
+
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
